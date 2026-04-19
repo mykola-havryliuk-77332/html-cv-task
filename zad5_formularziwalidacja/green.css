@@ -24,7 +24,7 @@ button {
     text-transform: uppercase;
     cursor: pointer;
     margin: 5px 10px;
-    border-radius: 20px; 
+    border-radius: 20px;
     transition: all 0.3s ease;
     box-shadow: 0 0 5px #00ff41;
     text-shadow: 0 0 5px #00ff41;
@@ -61,7 +61,7 @@ section {
     border: 1px solid #114411;
     padding: 25px;
     margin-bottom: 30px;
-    border-radius: 15px;
+    border-radius: 15px; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
@@ -97,7 +97,7 @@ section h2 {
 
 .error-msg {
     color: #00ff41;
-    background: #440000;
+    background: #440000; 
     padding: 2px 8px;
     font-size: 0.9em;
     margin-top: 5px;
