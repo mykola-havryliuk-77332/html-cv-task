@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    background-color: #010d01; 
+    background-color: #010d01;
     color: #e0f0e0;
     margin: 0;
     padding: 0;
@@ -61,7 +61,7 @@ section {
     border: 1px solid #114411;
     padding: 25px;
     margin-bottom: 30px;
-    border-radius: 15px; 
+    border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
 }
 
@@ -90,19 +90,17 @@ section h2 {
     box-sizing: border-box;
 }
 
-.form-group input:focus {
+.form-group input:focus,
+.form-group textarea:focus {
     outline: none;
     box-shadow: 0 0 8px #00ff41;
 }
 
 .error-msg {
-    color: #00ff41;
-    background: #440000; 
-    padding: 2px 8px;
+    color: #ff4444;
     font-size: 0.9em;
     margin-top: 5px;
     min-height: 20px;
-    border-radius: 5px;
 }
 
 #btn-submit {
