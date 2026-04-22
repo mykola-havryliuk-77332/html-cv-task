@@ -104,15 +104,16 @@ section h2 {
 }
 
 #btn-submit {
+    display: block;
     width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0 0 0; 
+    padding: 12px;
     background-color: #ff3366;
     color: white;
     border: none;
     box-shadow: 0 0 10px #ff3366;
     cursor: pointer;
-    margin: 10px 0 0 0; 
-    box-sizing: border-box; 
-    padding: 12px;
 }
 
 footer {
