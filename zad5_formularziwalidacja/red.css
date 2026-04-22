@@ -90,7 +90,8 @@ section h2 {
     box-sizing: border-box;
 }
 
-.form-group input:focus {
+.form-group input:focus,
+.form-group textarea:focus {
     outline: none;
     box-shadow: 0 0 5px #ff3366;
 }
@@ -109,6 +110,9 @@ section h2 {
     border: none;
     box-shadow: 0 0 10px #ff3366;
     cursor: pointer;
+    margin: 10px 0 0 0; 
+    box-sizing: border-box; 
+    padding: 12px;
 }
 
 footer {
