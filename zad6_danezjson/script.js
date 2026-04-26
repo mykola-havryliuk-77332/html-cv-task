@@ -23,7 +23,6 @@ przyciskProjekty.onclick = function() {
 };
 
 const form = document.getElementById('contact-form');
-
 form.addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -87,6 +86,8 @@ function ladowanieDanychZJSON() {
             return response.json(); // Zamiana na obiekt JavaScript
         })
         .then(dane => {
+            console.log("Dane pobrane z JSON: ", dane);
+
             // Dynamiczne budowanie listy umiejętności
             const umiejetnosciLista = document.getElementById('umiejetnosci-lista');
             dane.umiejetnosci.forEach(umiejetnosc => {
