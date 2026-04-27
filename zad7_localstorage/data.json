@@ -1,0 +1,19 @@
+{
+  "umiejetnosci": [
+    "Podstawy HTML5 i CSS3",
+    "Programowanie w JavaScript",
+    "Praca z systemem kontroli wersji Git i platformą GitHub",
+    "Język polski (poziom B2)",
+    "Sport (siatkówka, koszykówka, treningi na siłowni)"
+  ],
+  "projekty": [
+    {
+      "tytul": "Strona WWW CV",
+      "opis": "Samodzielnie wykonany projekt z wykorzystaniem HTML, CSS i JS."
+    },
+    {
+      "tytul": "Systemy liczbowe",
+      "opis": "Operacje i obliczenia w binarnym systemie liczbowym."
+    }
+  ]
+}
